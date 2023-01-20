@@ -66,7 +66,12 @@ class HomePage extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: Center(
-                                child: Icon(Icons.monitor_heart_outlined)),
+                              child: Image.asset(
+                                'assets/heat.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                            ),
                           ),
                         ],
                       ),
@@ -155,7 +160,10 @@ class HomePage extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: Center(
-                                child: Icon(Icons.monitor_heart_outlined)),
+                                child: Icon(
+                              Icons.bedtime_sharp,
+                              color: Colors.white,
+                            )),
                           ),
                         ],
                       ),
@@ -251,7 +259,12 @@ class HomePage extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: Center(
-                                child: Icon(Icons.monitor_heart_outlined)),
+                              child: Image.asset(
+                                'assets/fire.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                            ),
                           ),
                         ],
                       ),
@@ -340,7 +353,12 @@ class HomePage extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: Center(
-                                child: Icon(Icons.monitor_heart_outlined)),
+                              child: Image.asset(
+                                'assets/foot.png',
+                                height: 30,
+                                width: 30,
+                              ),
+                            ),
                           ),
                         ],
                       ),
